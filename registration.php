@@ -14,11 +14,9 @@
 		setcookie("email", $email, time() + 60*60*24);
 		setcookie("gender", $gender, time() + 60*60*24);
 		setcookie("DateOfBirth", $DateOfBirth, time() + 60*60*24);
-		setcookie("Address", $Address, time() + 60*60*24);
+		setcookie("Address", $Address, time() + 60*60*24);}
 
-		#header("Location:http://localhost/view%20profile/view%20profile.php");
-		#header("http://localhost/changepass/changepass.php");
-	}
+		
 ?>
 <!DOCTYPE html>
 <html>
@@ -64,9 +62,8 @@
 	</form>
 
 	<br>
-	<a href="">loginform</a>
+	<a href="http://localhost/registration/login.php">loginform</a>
 	
 
 </body>
 </html>
-    
